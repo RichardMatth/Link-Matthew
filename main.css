@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Karla&family=Pacifico&display=swap');
+* {
+   margin: 5px;
+   padding: 0px;
+   box-sizing: border-box;
+   color: #fff9f9;
+   font-family: 'Karla', sans-serif;
+
+}
+
+:root {
+   --green: #79dd79;
+   --white: #fff8f8;
+   --black: #000000;
+   --babyblue: #8bbef0;
+   --yellow: #faed2e;
+   --red: #f35a5a;
+   --orange: #ffa500;
+   --Purple: #7d2dd9;
+   --Pink: #fefbff;
+   --bgcolor: #b3b2b2;
+   --accentcolor: #280957;
+   --bg2color: #f5f5f5;
+}
+
+body {
+  background-image: url(./imagem/darokagif2.gif);
+  backdrop-filter: blur(1.5px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.link-tree {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: rgb(f, green, blue);
+   width: 30vw;
+   margin: 0px auto;
+   gap: 4.5px;
+
+}
+
+.link-tree img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 2px #111111;
+}
+
+.link-tree h1 {
+  font-size: 1.5rem;
+
+}
+
+.link-tree a {
+  background-color: var(--accentcolor);
+  color: var(--bgcolor);
+  width: 100%;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 50px;
+
+}
+
+.gif {
+  text-align: none;
+}
+
+.audio controls autoplay{
+   display: flex;
+   align-items: center;   width: 30vw;
+   margin: 0px auto;
+
+}
